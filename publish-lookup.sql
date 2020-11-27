@@ -1,7 +1,7 @@
 /* run this in your Engage Publish instance */
 /* copy/paste output to excel, convert to CSV *
 /* be sure to change to UTF-8 encoding, not BOM */
-/* run import, clean up images: '' and categories: '' along with redirect from format */
+/* run import, clean up images: '' and categories: along with redirect from format */
 
 select 
 Name,
