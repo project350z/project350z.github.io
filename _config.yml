@@ -1,0 +1,91 @@
+# Site
+name: "Project350z.com"
+title: "Project350z.com - Datsun 240z"
+description: "A Datsun project originally prepped for autocross."
+logo: 'assets/images/logo.gif'
+favicon: 'assets/images/favicon.ico'
+baseurl: ""
+google_analytics: 'UA-69145-8'
+disqus: Project350z
+mailchimp-list: 
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  chris:
+    name: Chris Hammond
+    display_name: Chris Hammond
+    gravatar: bff097b7cc348bebce39ee1c7694d125
+    email: Project350z@christoc.com
+    web: https://chrishammond.com
+    twitter: https://twitter.com/Project350z
+    description: "Founder of Project350z.com. Read more at ChrisHammond.com" 
+
+#  john:
+#    name: John
+#    display_name: John    
+#    avatar: 'assets/images/avatar.png'
+#    gravatar: b1cc14991db7a456fcd761680bbc8f81
+#    email: wowthemesnet@gmail.com
+#    web: https://www.wowthemes.net
+#    twitter: https://twitter.com/wowthemesnet
+#    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+plugins:
+  - jekyll_picture_tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3356074518164779"
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+picture:
+  source: "assets/images"
+  output: "assets/images_out"
+  suppress_warnings: true
+  ignore_missing_images: false
+  presets:
+    default:
+      ppi: [1, 1.5]
+      source_medium:
+        media: "(min-width: 40em)"
+        width: "600"
+        height: "300"
+      source_default:
+        width: "300"
+
