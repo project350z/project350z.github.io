@@ -7,6 +7,6 @@ redirect_from:
   - "/Photos"
 ---
 
-Photos from the 240z
+Photos from the 350z
 
-<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/chammond/albums/72157594465585463" title="Project 240Z"><img src="https://live.staticflickr.com/1340/1284655318_8a2b7537dc_h.jpg" width="1200" height="1600" alt="Project 240Z"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/gp/chammond/hc54D6" title="Project350z"><img src="https://live.staticflickr.com/5673/30452985643_32d205b69e_h.jpg" width="1200" height="1600" alt="Project350z"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

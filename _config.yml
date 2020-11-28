@@ -5,7 +5,7 @@ description: "A Datsun project originally prepped for autocross."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
-google_analytics: 'UA-69145-8'
+google_analytics: 'UA-69145-25'
 disqus: Project350z
 mailchimp-list: 
 include: ["_pages"]
