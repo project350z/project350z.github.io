@@ -36,6 +36,7 @@ Rear Suspension
   - Rear Camber Arms: Kinetix Racing
 
 Engine/Exhaust/Drivetrain
+
 The car came with an intake spacer, this will be removed before the Dixie Tour in Georgia, March 2016.
 
   - Intake: Jim Wolf cold air induction, shielded *
@@ -57,4 +58,4 @@ The interior is the Frost interior, originally with the leather,heated,electric 
   - Glass Tint: medium (approx 35%) *
   - Seats: NRG FRP 300 (added February 2016)
  
-* - Anything with an asterisk came on the car when I purchased it in November 2015
+  - * Anything with an asterisk came on the car when I purchased it in November 2015
