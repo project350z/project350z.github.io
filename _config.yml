@@ -1,7 +1,7 @@
 # Site
 name: "Project350z.com"
-title: "Project350z.com - Datsun 240z"
-description: "A Datsun project originally prepped for autocross."
+title: "Project350z.com - Autocrossing a Nissan 350z"
+description: "A Nissan 350z project originally prepped for autocross."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
