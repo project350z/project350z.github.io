@@ -8,7 +8,7 @@ var documents = [{
     "id": 1,
     "url": "/about",
     "title": "About Project350z.com",
-    "body": "Project350z. com was originally about a boy and his toy. Originally picked up from a friend in Farmington, Missouri on May 7th, 2006, the car spent almost 4 years with Chris Hammond. He got it running with a turbo motor from a 280z, and then blew that motor up on its first autocross run. Eventually Chris and his wife moved to Colorado, then on to California. The car was sold in Colorado. This website was used to track the progress of the build. The website is kept around for archival purposes, and with hopes that one day Chris will own another Datsun 240z. Chris also has Project350z. com and Project370z/Project400z with hopes that one day both of those websites have a vehicle as well. "
+    "body": "Project350z. com was originally about a boy and his toy. The first was a 2003 350z Enthusiast Package. That car was campaigned for 3 years and then sold to a Dozzle in Kansas City (he still owns it and won’t sell it back). The second was a 2004 Enthusiast. Picked up in Colorado in January 2010, it travelled to California and spent 2 years there before being sold. The third was a 2003 Touring that was acquired in 2006. That only stuck around 2 years before making its way to Florida, and then recently on to Colorado. What will the 4th be? Who knows. The current car can be found over on SpecFRS. com "
     }, {
     "id": 2,
     "url": "/carsetup",
