@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: 'UA-69145-25'
-disqus: Project350z
+disqus: 
 mailchimp-list: 
 include: ["_pages"]
 permalink: /:title/
