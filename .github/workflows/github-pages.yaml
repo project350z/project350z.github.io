@@ -7,7 +7,7 @@ on:
 
 jobs:
   jekyll:
-    runs-on: ubuntu-18.04 # can change this to ubuntu-latest if you prefer
+    runs-on: ubuntu-20.04 # can change this to ubuntu-latest if you prefer
     steps:
       - name: 📂 setup
         uses: actions/checkout@v2
@@ -21,6 +21,40 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7 # can change this to 2.7 or whatever version you prefer
+
+      - name: Install libffi6
+        run: |
+          wget http://mirrors.kernel.org/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
+          sudo apt install ./libffi6_3.2.1-8_amd64.deb
+
+      - name: Install libvips42
+        run: |
+          wget http://archive.ubuntu.com/ubuntu/pool/universe/v/vips/libvips42_8.9.1-2_amd64.deb
+          sudo apt install ./libvips42_8.9.1-2_amd64.deb
+
+      - name: Install libvips-tools
+        run: |
+          wget http://archive.ubuntu.com/ubuntu/pool/universe/v/vips/libvips-tools_8.9.1-2_amd64.deb
+          sudo apt install ./libvips-tools_8.9.1-2_amd64.deb
+
+
+#          identify -version
+#          sudo apt update
+#          sudo apt install imagemagick
+#          identify -version
+
+
+
+# sudo apt-get install imagemagick 
+# wget https://www.imagemagick.org/download/ImageMagick.tar.gz
+# tar xvzf ImageMagick.tar.gz
+# cd ImageMagick-7.0.10-58/
+# ./configure 
+# make
+# sudo make install
+# sudo ldconfig /usr/local/lib
+# identify -version
+
 
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2.4.0
