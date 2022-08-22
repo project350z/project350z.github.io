@@ -24,3 +24,5 @@ group :jekyll_plugins do
     gem 'jekyll_picture_tag'
     gem 'jekyll-redirect-from'
 end
+
+gem "webrick", "~> 1.7"
