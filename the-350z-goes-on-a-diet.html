@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- change your GA id in _config.yml -->
+
+		<!-- Google tag (gtag.js)  GA4 -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-R47BPLNZB6"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-R47BPLNZB6");
+		</script>
+
 		<meta charset="utf-8" />
 		<meta
 			name="viewport"
@@ -71,23 +88,6 @@
 
 		<script src="/assets/js/jquery.min.js"></script>
 	</head>
-
-	<!-- change your GA id in _config.yml -->
-
-	<!-- Google tag (gtag.js)  GA4 -->
-	<script
-		async
-		src="https://www.googletagmanager.com/gtag/js?id=G-R47BPLNZB6"
-	></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
-
-		gtag("config", "G-R47BPLNZB6");
-	</script>
 
 	<body class="layout-post">
 		<!-- defer loading of font and font awesome -->
