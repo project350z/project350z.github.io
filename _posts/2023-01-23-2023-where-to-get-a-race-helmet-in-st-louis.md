@@ -20,5 +20,5 @@ Trying on your helmet is important, you want to make sure what you select fits y
 Brand specifics will obviously vary, do you need/want the most expensive coolest looking helmet? Or do you need the one that does the job the best? My recommendation is you try on multiple brands and see which one feels best, and meets your budget.
 
 # Can I buy a helmet online?
-Absolutely you can buy a helmet online. [SoloPerformance.com](https://www.soloperformance.com/) has one of the largest selections of helmets online, they sell hundreds of helmets a year.
+Absolutely you can buy a helmet online. [SoloPerformance.com](https://soloperformance.com/collections/helmets-and-accessories) has one of the largest selections of helmets online, they sell hundreds of helmets a year.
 
