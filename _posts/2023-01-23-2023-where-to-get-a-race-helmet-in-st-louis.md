@@ -1,6 +1,6 @@
 ---
 layout: post
-title: St Louis Race Gear
+title: Where to buy a race helmet in St. Louis?
 date: '2023-01-23T3:29:20+00:00'
 permalink: where-to-get-a-race-helmet-in-st-louis
 description: Looking for a place to try on a helmet in St. Louis?
