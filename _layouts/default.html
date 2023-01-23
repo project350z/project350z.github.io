@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+{% if jekyll.environment == 'production' %}
+<!-- change your GA id in _config.yml -->
+
+<!-- Google tag (gtag.js)  GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R47BPLNZB6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google_analytics}}');
+</script>
+
+{% endif %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,20 +39,6 @@
 
 </head>
 
-{% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
-
-<!-- Google tag (gtag.js)  GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R47BPLNZB6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{site.google_analytics}}');
-</script>
-
-{% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
