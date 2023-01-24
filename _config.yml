@@ -7,7 +7,6 @@ favicon: 'assets/images/favicon.ico'
 baseurl: ""
 # google_analytics: 'UA-69145-25'
 google_analytics: 'G-R47BPLNZB6'
-disqus: 
 mailchimp-list: 
 include: ["_pages"]
 permalink: /:title/
