@@ -5,6 +5,7 @@ permalink: /videos
 comments: false
 redirect_from: 
   - "/Videos"
+  - "/Videos.aspx"
 ---
 
 Videos from the 350z
