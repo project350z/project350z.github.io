@@ -753,7 +753,7 @@ var documents = [{
     "id": 150,
     "url": "/20-years-ago-today",
     "title": "Project350z 20 Years Ago Today",
-    "body": "2023/04/18 - 20 Years. It’s been 20 years since I picked up the 350z. I know where it is, I wish I still owned it. Maybe one day Dozzle will let me buy it back! Here are photos from the day I purchased the car. Actually, this was the day I picked up the car, I went back the next day to sign the papers. I had a date (first date) and the paperwork was taking too long, so Todd (at Bommarito Nissan) told me to come back the next day rather than miss the date.     "
+    "body": "2023/04/18 - 20 Years. It’s been 20 years since I picked up the 350z. I know where it is, I wish I still owned it. Maybe one day Dozzle will let me buy it back! Here are photos from the day I purchased the car. Actually, this was the day I picked up the car, I went back the next day to sign the papers. I had a date (first date) and the paperwork was taking too long, so Todd (at Bommarito Nissan) told me to come back the next day rather than miss the date. The last photo is of the 99 Z-28 that I traded in that day for the 350Z.     "
     }, {
     "id": 151,
     "url": "/where-to-get-a-race-helmet-in-st-louis",
