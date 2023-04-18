@@ -17,6 +17,8 @@ I know where it is, I wish I still owned it. Maybe one day Dozzle will let me bu
 
 Here are photos from the day I purchased the car. Actually, this was the day I picked up the car, I went back the next day to sign the papers. I had a date (first date) and the paperwork was taking too long, so Todd (at Bommarito Nissan) told me to come back the next day rather than miss the date.
 
+The last photo is of the 99 Z-28 that I traded in that day for the 350Z.
+
 {% picture April2003/April2003-1.jpg %}
 {% picture April2003/April2003-2.jpg %}
 {% picture April2003/April2003-3.jpg %}
