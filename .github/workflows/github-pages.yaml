@@ -22,10 +22,18 @@ jobs:
         with:
           ruby-version: 2.7 # can change this to 2.7 or whatever version you prefer
 
+# libwebpdemux2_0.6.1-2ubuntu0.20.04.1_amd64.deb 
+
       - name: Install libffi6
         run: |
           wget http://mirrors.kernel.org/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
           sudo apt install ./libffi6_3.2.1-8_amd64.deb
+
+    # 5-18-2023 had to do this because the path to libwebpdemux2_0.6.1-2ubuntu0.20.04.1_amd64.deb no longer exists (comes from the libvups42 call after this)
+      - name: Install libwebpdemux2_0.6.1-2ubuntu0.20.04.2_amd64.deb 
+        run: |
+          wget http://archive.ubuntu.com/ubuntu/pool/main/libw/libwebp/libwebpdemux2_0.6.1-2ubuntu0.20.04.2_amd64.deb
+          sudo apt install ./libwebpdemux2_0.6.1-2ubuntu0.20.04.2_amd64.deb 
 
       - name: Install libvips42
         run: |
