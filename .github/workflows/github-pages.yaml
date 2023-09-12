@@ -20,7 +20,7 @@ jobs:
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7 # can change this to 2.7 or whatever version you prefer
+          ruby-version: 3.0 # can change this to 2.7 or whatever version you prefer
 
 # libwebpdemux2_0.6.1-2ubuntu0.20.04.1_amd64.deb 
 
