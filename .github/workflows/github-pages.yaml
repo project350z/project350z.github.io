@@ -30,10 +30,22 @@ jobs:
           sudo apt install ./libffi6_3.2.1-8_amd64.deb
 
     # 5-18-2023 had to do this because the path to libwebpdemux2_0.6.1-2ubuntu0.20.04.1_amd64.deb no longer exists (comes from the libvups42 call after this)
-      - name: Install libwebpdemux2_0.6.1-2ubuntu0.20.04.2_amd64.deb 
+      - name: Install libwebpdemux2_0.6.1-2ubuntu0.20.04.3_amd64.deb 
         run: |
-          wget http://archive.ubuntu.com/ubuntu/pool/main/libw/libwebp/libwebpdemux2_0.6.1-2ubuntu0.20.04.2_amd64.deb
-          sudo apt install ./libwebpdemux2_0.6.1-2ubuntu0.20.04.2_amd64.deb 
+          wget http://archive.ubuntu.com/ubuntu/pool/main/libw/libwebp/libwebpdemux2_0.6.1-2ubuntu0.20.04.3_amd64.deb
+          sudo apt install ./libwebpdemux2_0.6.1-2ubuntu0.20.04.3_amd64.deb 
+
+  # 8-4-2023 FIX FOR BAD PATHS
+      - name: Install libpoppler97_0.86.1-0ubuntu1.4_amd64.deb 
+        run: |
+          wget http://azure.archive.ubuntu.com/ubuntu/pool/main/p/poppler/libpoppler97_0.86.1-0ubuntu1.4_amd64.deb
+          sudo apt install ./libpoppler97_0.86.1-0ubuntu1.4_amd64.deb
+
+# 8-4-2023 FIX FOR BAD PATHS
+      - name: Install libpoppler-glib8_0.86.1-0ubuntu1.3_amd64.deb
+        run: |
+          wget http://azure.archive.ubuntu.com/ubuntu/pool/main/p/poppler/libpoppler-glib8_0.86.1-0ubuntu1.3_amd64.deb
+          sudo apt install ./libpoppler-glib8_0.86.1-0ubuntu1.3_amd64.deb
 
       - name: Install libvips42
         run: |
@@ -65,7 +77,7 @@ jobs:
 
 
       - name: 🔨 install dependencies & build site
-        uses: limjh16/jekyll-action-ts@v2.4.0
+        uses: limjh16/jekyll-action-ts@v2.4.1
         with:
           enable_cache: true
           ### Enables caching. Similar to https://github.com/actions/cache.
