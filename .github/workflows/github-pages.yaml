@@ -6,33 +6,12 @@ on:
       - dev
 
 jobs:
-  jekyll:
-    runs-on: ubuntu-20.04 # can change this to ubuntu-latest if you prefer
+  build-deploy:
+    runs-on: ubuntu-20.04 
     steps:
-      - name: 📂 setup
-        uses: actions/checkout@v2
-
-      - name: 💎 setup ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.0 # can change this to 2.7 or whatever version you prefer
-
-# libffi6
-      - name: Install Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y  libwebpdemux2 libpoppler97 libpoppler-glib8 libvips42 libvips-tools
-
-      - name: 🔨 install dependencies & build site
-        uses: limjh16/jekyll-action-ts@v2.4.1
-        with:
-          enable_cache: true
-          format_output: true
-          prettier_opts: '{ "useTabs": true }'
-
-      - name: 🚀 deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: main
+    - name: Reusable Jekyll Build and Deploy
+      uses: ChrisHammond/christoc-jekyll-builddeploy@v0.0.8
+      with:
+        ruby_version: '3.2.2'
+        jekyll_build_opts: ''
+        github_token: ${{ secrets.GITHUB_TOKEN }}
