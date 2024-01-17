@@ -27,11 +27,10 @@ foreach ($file in $files) {
 
             # Add or update redirect_to in YAML
             if ($yaml -notmatch "redirect_to:") {
-                $yaml = $yaml + "`nredirect_to:
-  - $redirectUrl"
+                $yaml = $yaml + "`nredirect_to:`n  - $redirectUrl"
                 Write-Host "Added redirect_to."
             } else {
-                $yaml = $yaml -replace "(?<=redirect_to:).*", " $redirectUrl"
+                $yaml = $yaml -replace "(?<=redirect_to:\s*\n\s*-).*", " $redirectUrl"
                 Write-Host "Updated redirect_to."
             }
 
