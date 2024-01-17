@@ -15,5 +15,4 @@ The third was a 2003 Touring that was acquired in 2016. That only stuck around 2
 
 What will the 4th be? Who knows.
 
-The current car can be found over on [SpecFRS.com](https://www.specfrs.com/)
 
