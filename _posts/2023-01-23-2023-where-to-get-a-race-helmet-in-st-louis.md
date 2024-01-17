@@ -8,6 +8,8 @@ keywords: race, gear, st louis, saint, louis, saint louis, helmets,safety
 image: Helmet-1.JPG
 categories:
 featured: true
+redirect_to:
+  - https://www.autocrossblog.com/where-to-get-a-race-helmet-in-st-louis
 ---
 If you're looking for a racing helmet in St. Louis Missouri, you should be looking at [Solo Performance Specialties](https://www.soloperformance.com/).
 
@@ -21,4 +23,5 @@ Brand specifics will obviously vary, do you need/want the most expensive coolest
 
 # Can I buy a helmet online?
 Absolutely you can buy a helmet online. [SoloPerformance.com](https://soloperformance.com/collections/helmets-and-accessories) has one of the largest selections of helmets online, they sell hundreds of helmets a year.
+
 

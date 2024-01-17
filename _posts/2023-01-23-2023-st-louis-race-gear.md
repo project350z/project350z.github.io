@@ -8,6 +8,8 @@ keywords: race, gear, st louis, saint, louis, saint louis, helmets, numbers, saf
 image: SPS-1.jpg
 categories:
 featured: true
+redirect_to:
+  - https://www.autocrossblog.com/st-louis-race-gear
 ---
 If you're looking for race gear in St. Louis Missouri, you should be looking at [Solo Performance Specialties](https://www.soloperformance.com/).
 

@@ -8,6 +8,8 @@ keywords: 350z, 20 years,
 image: April2003/April2003-1.jpg
 categories:
 featured: true
+redirect_to:
+  - https://www.autocrossblog.com/20-years-ago-today
 ---
 20 Years.
 
