@@ -21,7 +21,7 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     # gem 'kramdown'
     # gem 'rouge'
-    gem 'jekyll_picture_tag'
+    gem 'jekyll_picture_tag', '>= 2.1.1'
     gem 'jekyll-redirect-from'
 end
 
