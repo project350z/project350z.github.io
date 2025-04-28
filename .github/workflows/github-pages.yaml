@@ -7,10 +7,10 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-20.04 
+    runs-on: ubuntu-22.04 
     steps:
     - name: Reusable Jekyll Build and Deploy
-      uses: ChrisHammond/christoc-jekyll-builddeploy@v0.0.8
+      uses: ChrisHammond/christoc-jekyll-builddeploy@v0.0.9
       with:
         ruby_version: '3.2.2'
         jekyll_build_opts: ''
